@@ -1,0 +1,97 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+header{
+  position: fixed;
+  place-items: center;
+  height:100px ;
+  width: 100%;
+  background-color:green ;
+  text-align: center;
+  justify-content: center;
+
+  margin-bottom: 0px;
+
+}
+nav{
+ 
+  height: 300px;
+  width: 19%;
+  background-color: red;
+  margin-right: 0px;
+ 
+   text-align: center;
+   justify-content: center;
+}
+section{
+  height: 300px;
+  width: 59%;
+  background-color: gold;
+  text-align: center;
+  }
+  .img-slice  {
+    width: 100px;
+    position: absolute;
+    top: 42.9%;
+    left: 31%;
+    transform: translate(-45%,-45%);
+  
+  }
+.img-slice  {
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  transform: translate(-45%,-45%);
+}
+.img-slice  {
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  transform: rotate(   );
+  transform: translate(-45%,-45%);
+}
+.img-slice  {
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  left: 31%;
+  transform: translate(-45%,-45%);
+}
+
+aside{
+  height:300px;
+  width: 19%;
+  background-color: red;
+  text-align: center;
+}
+footer{
+  position: fixed;
+  height:100px;
+  width: 100%;
+  background-color: purple;
+  text-align: center;
+  margin-top: 10px;
+}
+main{
+  flex-flow: row wrap;
+   display: flex;
+justify-content: space-around;
+/* height: 45%;*/
+  padding-top: 110px;
+  overflow-y:hidden;
+}
+@media screen and (max-width:600px) {
+  aside {
+    display:none;
+  }
+  nav {
+    display:none;
+  }
+  section {
+    width: 100%;
+  }
+}
